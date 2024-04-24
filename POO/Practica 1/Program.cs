@@ -35,23 +35,68 @@ namespace Practica_1
             Console.WriteLine("Programa estudiantes: ");
             Console.WriteLine();
 
+            Console.WriteLine("Especifique su rol: (estudiante o profesor");
+            string rol = Console.ReadLine();
 
-            Estudiante estudiante1 = new Estudiante("Rodrigo", 35, "La Romana", "Ingenieria en Sistemas", "A20240105");
-            estudiante1.MostrarInfoEstudiante();
+            if (rol.ToLower() == "estudiante" || rol.ToLower() == "profesor")
+            {
+                Console.WriteLine("Ingrese su nombre: ");
+                string nombre = Console.ReadLine();
 
-            Console.WriteLine();
+                Console.WriteLine("Ingrese su residencia: ");
+                string ciudad = Console.ReadLine();
 
-            Console.WriteLine("Programa figuras: ");
-            Console.WriteLine();
+                Console.WriteLine("Ingrese la fecha de nacimiento (Formato: dd/MM/yyyy): ");
+                string fechaNacimientoStr = Console.ReadLine();
 
-            Rectangulo rectangulo = new Rectangulo { Base = 5, Altura = 3 };
-            Circulo circulo = new Circulo { Radio = 4 };
-            Triangulo triangulo = new Triangulo { Base = 6, Altura = 4 };
 
-            // Calcular y mostrar el área de cada figura
-            Console.WriteLine("Área del rectángulo: " + rectangulo.CalcularArea());
-            Console.WriteLine("Área del círculo: " + circulo.CalcularArea());
-            Console.WriteLine("Área del triángulo: " + triangulo.CalcularArea());
+                DateTime fechaNac;
+
+                if (rol.ToLower() == "estudiante")
+
+                {
+
+                    Console.WriteLine("Ingrese su carrera: ");
+                    string carrera = Console.ReadLine();
+
+                    Console.WriteLine("Ingrese su Matricula: ");
+                    string matricula = Console.ReadLine();
+
+                    Estudiante estudiante1 = new Estudiante(nombre, ciudad, carrera, matricula);
+
+                    estudiante1.MostrarInfo();
+
+                    if (DateTime.TryParseExact(fechaNacimientoStr, "dd/MM/yyy", null, System.Globalization.DateTimeStyles.None, out fechaNac))
+                    {
+
+                        Console.WriteLine($"Su edad es " + estudiante1.ObtenerEdad(fechaNac) + "años");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Formato de fecha incorrecto. Intentalo de nuevo. ");
+                    }
+
+
+
+                }
+                else
+                {
+                    if (DateTime.TryParseExact(fechaNacimientoStr, "dd/MM/yyy", null, System.Globalization.DateTimeStyles.None, out fechaNac))
+                    {
+                        Profesor profesor1 = new Profesor(nombre,ciudad);
+                        profesor1.ObtenerEdad(fechaNac);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Formato de fecha incorrecto. Intentalo de nuevo. ");
+                    }
+                }
+
+            }
+
+           
+
+
 
         }
 

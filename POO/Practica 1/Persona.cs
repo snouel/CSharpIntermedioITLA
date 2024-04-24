@@ -3,32 +3,33 @@
 namespace Practica_1;
 
 
-public class Persona
+public abstract class Persona
 {
-    public string Nombre { get; set; }
-    public int Edad { get; set; }
-    public string Ciudad { get; set; }
+    public string? Nombre { get; set; }
+    public string? Ciudad { get; set; }
 
-
-    public Persona (string nombre, int edad, string ciudad)
+    public Persona (string? nombre, string? ciudad)
     {
         Nombre = nombre;
         Ciudad = ciudad;
-        Edad = edad;
     }
 
-    public void MostrarInfo()
+
+    public virtual int ObtenerEdad(DateTime fechanNac)
     {
-        Console.WriteLine($"Nombre: {Nombre}");
-        Console.WriteLine($"Ciudad: {Ciudad}");
 
+        var edad = DateTime.Now.Year - fechanNac.Year;
+
+        return edad;
     }
 
-    public void  EdadEnAnios()
+
+    public virtual void MostrarInfo()
     {
-        Console.WriteLine($"El usuario {Nombre} tiene {Edad} años");
+        Console.WriteLine("La informacion de la persona proporcionada: ");
+        Console.WriteLine(Nombre);
+        Console.WriteLine(Ciudad);
+
     }
-
-
 }
  

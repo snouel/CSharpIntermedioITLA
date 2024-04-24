@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace Practica_1
 {
-    public class Estudiante : Persona
+    public class Profesor : Persona
     {
-        public string Carrera { get; set; }
-        public string Matricula { get; set; }
 
-        public Estudiante (string? nombre, string? ciudad, string carrera, string matricula): base(nombre, ciudad)
-        {
-            Carrera = carrera;
-            Matricula = matricula;
-        }
+        public Profesor(string? nombre, string? ciudad) : base(nombre, ciudad) { }
 
+
+       
         public override int ObtenerEdad(DateTime fechanNac)
         {
             var edad = DateTime.Now.Year - fechanNac.Year;
@@ -29,10 +25,7 @@ namespace Practica_1
             Console.WriteLine("La informacion de la persona proporcionada: ");
             Console.WriteLine(Nombre);
             Console.WriteLine(Ciudad);
-            Console.WriteLine(Carrera);
-            Console.WriteLine(Matricula);
 
         }
-
     }
 }
