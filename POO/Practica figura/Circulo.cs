@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Programa_figuras
-{ 
+{
     public class Circulo : Figura
     {
         public double Radio { get; set; }

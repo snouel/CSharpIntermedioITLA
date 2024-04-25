@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Practica_1;
+using System;
 
 namespace Programa_figuras
 {
@@ -18,11 +19,11 @@ namespace Programa_figuras
         static void Main(string[] args)
         {
 
-          
+
 
             bool validacionFigura = false;
 
-            
+
             while (!validacionFigura)
             {
                 Console.WriteLine("A cual figura desea calcular el area?");
@@ -51,11 +52,11 @@ namespace Programa_figuras
                 else
                 {
                     Console.WriteLine("Debe introducir (circulo, rectangulo o triangulo).");
-                    
+
                 }
             }
 
-            
+
         }
 
 
