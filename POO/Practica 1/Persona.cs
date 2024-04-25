@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Practica_1;
+namespace Programa_estudiante;
 
 
 public abstract class Persona

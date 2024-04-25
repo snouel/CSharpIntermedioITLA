@@ -18,15 +18,9 @@ Crea una clase llamada "Estudiante" que herede de la clase "Persona".
 Agrega atributos específicos para el estudiante, como carrera y matrícula.
 Define un método para mostrar la información completa del estudiante.
 
-3. Implementación de Polimorfismo
-
-Crea una clase abstracta llamada "Figura" con un método abstracto para calcular el área.
-Crea clases derivadas de "Figura" como "Rectángulo", "Círculo" y "Triángulo".
-Implementa el método abstracto "calcularÁrea" en cada clase derivada.
-Crea una aplicación de consola que cree objetos de las clases "Rectángulo", "Círculo" y "Triángulo", calcule su área y muestre el resultado.
 */
 
-namespace Practica_1
+namespace Programa_estudiante
 {
     class Program
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practica_1
+namespace Programa_estudiante
 {
     public class Estudiante : Persona
     {
