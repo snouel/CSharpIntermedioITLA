@@ -22,9 +22,9 @@ namespace Practica_1
 
         public override void MostrarInfo()
         {
-            Console.WriteLine("La informacion de la persona proporcionada: ");
-            Console.WriteLine(Nombre);
-            Console.WriteLine(Ciudad);
+            Console.WriteLine("Informacion del profesor registrado: ");
+            Console.WriteLine($"Nombre: " + Nombre);
+            Console.WriteLine($"Ciudad: " + Ciudad);
 
         }
     }

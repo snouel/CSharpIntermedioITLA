@@ -8,10 +8,10 @@ namespace Practica_1
 {
     public class Estudiante : Persona
     {
-        public string Carrera { get; set; }
-        public string Matricula { get; set; }
+        public string? Carrera { get; set; }
+        public string? Matricula { get; set; }
 
-        public Estudiante (string? nombre, string? ciudad, string carrera, string matricula): base(nombre, ciudad)
+        public Estudiante (string? nombre, string? ciudad, string? carrera, string? matricula): base(nombre, ciudad)
         {
             Carrera = carrera;
             Matricula = matricula;
@@ -19,18 +19,20 @@ namespace Practica_1
 
         public override int ObtenerEdad(DateTime fechanNac)
         {
-            var edad = DateTime.Now.Year - fechanNac.Year;
 
+           
+            var edad = DateTime.Now.Year - fechanNac.Year;
+            
             return edad;
         }
 
         public override void MostrarInfo()
         {
-            Console.WriteLine("La informacion de la persona proporcionada: ");
-            Console.WriteLine(Nombre);
-            Console.WriteLine(Ciudad);
-            Console.WriteLine(Carrera);
-            Console.WriteLine(Matricula);
+            Console.WriteLine("Informacion del estudiante registrado: ");
+            Console.WriteLine($"Nombre: "+ Nombre);
+            Console.WriteLine($"Ciudad: " + Ciudad);
+            Console.WriteLine($"Carrera: " + Carrera);
+            Console.WriteLine($"Matricula: " + Matricula);
 
         }
 

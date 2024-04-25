@@ -26,9 +26,9 @@ public abstract class Persona
 
     public virtual void MostrarInfo()
     {
-        Console.WriteLine("La informacion de la persona proporcionada: ");
-        Console.WriteLine(Nombre);
-        Console.WriteLine(Ciudad);
+        Console.WriteLine("Informacion de la persona registrada: ");
+        Console.WriteLine($"Nombre: " + Nombre);
+        Console.WriteLine($"Ciudad: " + Ciudad);
 
     }
 }

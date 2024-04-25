@@ -30,77 +30,74 @@ namespace Practica_1
 {
     class Program
     {
-         static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Programa estudiantes: ");
             Console.WriteLine();
 
-            Console.WriteLine("Especifique su rol: (estudiante o profesor");
-            string rol = Console.ReadLine();
-
-            if (rol.ToLower() == "estudiante" || rol.ToLower() == "profesor")
+            string rol = " ";
+            bool rolValido = false;
+            while (!rolValido)
             {
-                Console.WriteLine("Ingrese su nombre: ");
-                string nombre = Console.ReadLine();
+                Console.WriteLine("Especifique su rol: (estudiante o profesor)");
+                rol = Console.ReadLine();
 
-                Console.WriteLine("Ingrese su residencia: ");
-                string ciudad = Console.ReadLine();
-
-                Console.WriteLine("Ingrese la fecha de nacimiento (Formato: dd/MM/yyyy): ");
-                string fechaNacimientoStr = Console.ReadLine();
-
-
-                DateTime fechaNac;
-
-                if (rol.ToLower() == "estudiante")
-
+                if (rol.ToLower() == "estudiante" || rol.ToLower() == "profesor")
                 {
-
-                    Console.WriteLine("Ingrese su carrera: ");
-                    string carrera = Console.ReadLine();
-
-                    Console.WriteLine("Ingrese su Matricula: ");
-                    string matricula = Console.ReadLine();
-
-                    Estudiante estudiante1 = new Estudiante(nombre, ciudad, carrera, matricula);
-
-                    estudiante1.MostrarInfo();
-
-                    if (DateTime.TryParseExact(fechaNacimientoStr, "dd/MM/yyy", null, System.Globalization.DateTimeStyles.None, out fechaNac))
-                    {
-
-                        Console.WriteLine($"Su edad es " + estudiante1.ObtenerEdad(fechaNac) + "años");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Formato de fecha incorrecto. Intentalo de nuevo. ");
-                    }
-
-
-
+                    rolValido = true;
                 }
                 else
                 {
-                    if (DateTime.TryParseExact(fechaNacimientoStr, "dd/MM/yyy", null, System.Globalization.DateTimeStyles.None, out fechaNac))
-                    {
-                        Profesor profesor1 = new Profesor(nombre,ciudad);
-                        profesor1.ObtenerEdad(fechaNac);
-                    }
-                    else
-                    {
-                        Console.WriteLine("Formato de fecha incorrecto. Intentalo de nuevo. ");
-                    }
+                    Console.WriteLine("Rol ingresado no válido. Inténtalo de nuevo.");
                 }
-
             }
 
-           
+            Console.WriteLine("Ingrese su nombre: ");
+            string nombre = Console.ReadLine();
 
+            Console.WriteLine("Ingrese su residencia: ");
+            string ciudad = Console.ReadLine();
 
+            DateTime fechaNac = DateTime.MinValue;
+            bool fechaValida = false;
+            while (!fechaValida)
+            {
+                Console.WriteLine("Ingrese la fecha de nacimiento (Formato: dd/MM/yyyy): ");
+                string fechaNacimientoStr = Console.ReadLine();
 
+                if (DateTime.TryParseExact(fechaNacimientoStr, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out fechaNac))
+                {
+                    fechaValida = true;
+                }
+                else
+                {
+                    Console.WriteLine("Formato de fecha incorrecto. Inténtalo de nuevo.");
+                }
+            }
+
+            if (rol.ToLower() == "estudiante")
+            {
+                Console.WriteLine("Ingrese su carrera: ");
+                string carrera = Console.ReadLine();
+
+                Console.WriteLine("Ingrese su Matricula: ");
+                string matricula = Console.ReadLine();
+
+                Estudiante estudiante1 = new Estudiante(nombre, ciudad, carrera, matricula);
+                estudiante1.MostrarInfo();
+
+                Console.WriteLine($"Usted tiene {estudiante1.ObtenerEdad(fechaNac)} años");
+            }
+            else
+            {
+                Profesor profesor1 = new Profesor(nombre, ciudad);
+                profesor1.MostrarInfo();
+                Console.WriteLine($"Su edad es {profesor1.ObtenerEdad(fechaNac)} años");
+              
+            }
         }
 
-     
+
 
     }
 
