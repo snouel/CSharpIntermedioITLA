@@ -15,7 +15,6 @@ namespace Practica_OCP
             {"India", new IndiaTaxCalculator()},
             {"USA", new USATaxCalculator()},
             {"UK", new UKTaxCalculator()}
-            // Puedes agregar más países aquí sin modificar esta clase
         };
         }
 
