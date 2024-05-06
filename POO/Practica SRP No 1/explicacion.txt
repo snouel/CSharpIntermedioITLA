@@ -1,0 +1,20 @@
+1.	Violación del SRP en la clase Persona:
+
+•	La clase Persona tiene varias responsabilidades. En primer lugar, almacena los datos de una persona (nombre, edad, dirección, correo electrónico). Esto es su principal responsabilidad y lo que se espera de una clase llamada Persona.
+
+•	Sin embargo, además de almacenar datos, la clase Persona también tiene métodos para enviar correos electrónicos (EnviarCorreoElectronico) y para imprimir los datos de la persona (ImprimirDatos). Estas responsabilidades adicionales no están directamente relacionadas con la representación de una persona, sino con acciones que se pueden realizar con la información de la persona.
+
+2.	Impacto de la violación del SRP:
+
+•	La violación del principio de SRP hace que la clase Persona sea menos cohesiva, es decir, que no esté centrada en una única responsabilidad. Esto puede dificultar el mantenimiento y la comprensión del código, ya que cada cambio en la forma en que se envían los correos electrónicos o se imprimen los datos requerirá modificaciones en la clase Persona.
+
+•	Por ejemplo, si en el futuro cambia la forma en que se envían los correos electrónicos (por ejemplo, se utiliza un servicio de correo electrónico diferente), tendrías que modificar la clase Persona, aunque esta modificación no esté directamente relacionada con la representación de una persona.
+
+
+3.	Refactorización aplicando el SRP:
+En el refactor, separamos las responsabilidades en diferentes clases:
+•	La clase Persona ahora se encarga únicamente de almacenar los datos de una persona.
+•	La clase EmailService se encarga de enviar correos electrónicos.
+•	La clase PersonaPrinter se encarga de imprimir los datos de una persona.
+
+Ahora cada clase tiene una única responsabilidad, lo que hace que el código sea más modular, mantenible y menos propenso a errores. Si se necesita cambiar la forma en que se envían los correos electrónicos, solo se tendría que modificar la clase EmailService, sin afectar a la representación de la persona.

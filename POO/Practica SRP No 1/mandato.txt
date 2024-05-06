@@ -1,0 +1,27 @@
+Dado la siguiente clase:
+
+
+public class Persona
+    {
+        private string nombre;
+        private int edad;
+        private string direccion;
+        private string correoElectronico;
+        public void EnviarCorreoElectronico(string mensaje)
+        {
+            // Logica para enviar correo electronico
+        }
+        public void ImprimirDatos()
+        {
+            Console.WriteLine($"Nombre: {nombre}");
+            Console.WriteLine($"Edad: {edad}");
+            Console.WriteLine($"Direccion: {direccion}");
+            Console.WriteLine($"Correo electronico: {correoElectronico}");
+        }
+    }
+
+    Se requiere:
+
+1. Identificar y explciar por que se esta violacioletando el principio de SRP.
+2. Refactorizar el código para aplicar el SRP al código de la imagen
+3. Subir su código a github y enviar su enlace en un txt en la tarea.
