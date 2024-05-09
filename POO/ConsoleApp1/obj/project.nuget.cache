@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SXBUZoHjG2yEzBMg0qnfU/TK1+zqo+fYev0CWppBVvKIVxSzYzOy7HewilBx7elVCW1XancLrUQ9WRS2A5M46g==",
+  "dgSpecHash": "6eySBZ+32iMjyRCT0ms8CFc9doPR3BxdyuaXTF0bAmA+qBjsw5a7HOmJJnYKfBH99/8YmLBQ3Lr8sbxUnRoU/w==",
   "success": true,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\ConsoleApp1\\Herencia.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\CSharpIntermedioITLA\\POO\\ConsoleApp1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

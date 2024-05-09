@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kt4wdcT3lTbMpvunXKqL1CbGHH8QB/+tHcSgKMATUtd38u4Wx1PAw3bCubLPhjXGZWL7lwsimxT+ZQYOq5wTdQ==",
+  "dgSpecHash": "kYdAvpvgAFs6Q1QFssqB3BcOelznwl9N71GqqQTt5yUk7nzpO6ariXlaJPJE4M9A0ElR4aprc8mna4nYdB6/5w==",
   "success": true,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\Practica 1\\Practica Estudiante.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\CSharpIntermedioITLA\\POO\\Practica 1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
