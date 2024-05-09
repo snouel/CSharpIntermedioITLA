@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Practica persona - empleado/1.0.0": {
+        "runtime": {
+          "Practica persona - empleado.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Practica persona - empleado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "85ZEi1D5Qu5RWXzMSXAsA0xyMsOyiksOTlKnAWKS4ciAJfcwmz2jUfkFuml1G3Y1mGhjRUxIexPkQKDZXK0Oww==",
+  "dgSpecHash": "hCbL4WiBvT8TFwOXC0NKuRizts3QPBxwkUxXjT7K0+khj87e9dS1KXo7XSYIAQP6f3M5aZTOQg+CXCzafHpvgw==",
   "success": true,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\Polimorfismo\\Polimorfismo.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\CSharpIntermedioITLA\\POO\\Polimorfismo\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

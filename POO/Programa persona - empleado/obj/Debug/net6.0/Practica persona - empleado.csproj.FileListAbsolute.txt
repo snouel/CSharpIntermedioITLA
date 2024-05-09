@@ -1,0 +1,14 @@
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\bin\Debug\net6.0\Practica persona - empleado.exe
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\bin\Debug\net6.0\Practica persona - empleado.deps.json
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\bin\Debug\net6.0\Practica persona - empleado.runtimeconfig.json
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\bin\Debug\net6.0\Practica persona - empleado.dll
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\bin\Debug\net6.0\Practica persona - empleado.pdb
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.AssemblyInfoInputs.cache
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.AssemblyInfo.cs
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.csproj.CoreCompileInputs.cache
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.dll
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\refint\Practica persona - empleado.dll
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.pdb
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\Practica persona - empleado.genruntimeconfig.cache
+C:\CSharpIntermedioITLA\POO\Programa persona - empleado\obj\Debug\net6.0\ref\Practica persona - empleado.dll
