@@ -7,7 +7,7 @@ public abstract class Persona
 {
     public string? Nombre { get; set; }
     public string? Ciudad { get; set; }
-
+     
     public Persona (string? nombre, string? ciudad)
     {
         Nombre = nombre;
