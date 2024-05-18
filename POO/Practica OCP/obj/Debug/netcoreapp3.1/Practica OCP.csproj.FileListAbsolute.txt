@@ -4,7 +4,6 @@ C:\CSharpIntermedioITLA\POO\Practica OCP\bin\Debug\netcoreapp3.1\Practica OCP.ru
 C:\CSharpIntermedioITLA\POO\Practica OCP\bin\Debug\netcoreapp3.1\Practica OCP.runtimeconfig.dev.json
 C:\CSharpIntermedioITLA\POO\Practica OCP\bin\Debug\netcoreapp3.1\Practica OCP.dll
 C:\CSharpIntermedioITLA\POO\Practica OCP\bin\Debug\netcoreapp3.1\Practica OCP.pdb
-C:\CSharpIntermedioITLA\POO\Practica OCP\obj\Debug\netcoreapp3.1\Practica OCP.csproj.AssemblyReference.cache
 C:\CSharpIntermedioITLA\POO\Practica OCP\obj\Debug\netcoreapp3.1\Practica OCP.GeneratedMSBuildEditorConfig.editorconfig
 C:\CSharpIntermedioITLA\POO\Practica OCP\obj\Debug\netcoreapp3.1\Practica OCP.AssemblyInfoInputs.cache
 C:\CSharpIntermedioITLA\POO\Practica OCP\obj\Debug\netcoreapp3.1\Practica OCP.AssemblyInfo.cs

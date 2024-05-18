@@ -1,0 +1,14 @@
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\bin\Debug\net6.0\Herencia.exe
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\bin\Debug\net6.0\Herencia.deps.json
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\bin\Debug\net6.0\Herencia.runtimeconfig.json
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\bin\Debug\net6.0\Herencia.dll
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\bin\Debug\net6.0\Herencia.pdb
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.AssemblyInfoInputs.cache
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.AssemblyInfo.cs
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.csproj.CoreCompileInputs.cache
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.dll
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\refint\Herencia.dll
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.pdb
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\Herencia.genruntimeconfig.cache
+C:\CSharpIntermedioITLA\POO\ConsoleApp1\obj\Debug\net6.0\ref\Herencia.dll

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "d7jK+MdnpnqvRcBB4bav1J279PvpOPu6RAbWemydEvylKjEPaUmvVKYFlmrGMmEwd1ic2n/g5yrb5fHAUzMTDA==",
-  "success": true,
+  "dgSpecHash": "mowFFF01V0eJEo7JAfy366zgLPykUtGP+ktmlG8fZwH7cFwPVcV5E6wXeQBMF8MtW7X/DUKk03ahKA+b4OZrKQ==",
+  "success": false,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\Practica OCP\\Practica OCP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Steven\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
@@ -9,5 +9,15 @@
     "C:\\Users\\Steven\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Steven\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Practica SRP No 1 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Practica SRP No 1 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Practica SRP No 1",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

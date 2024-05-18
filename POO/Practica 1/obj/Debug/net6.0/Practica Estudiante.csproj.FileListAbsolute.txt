@@ -1,0 +1,14 @@
+C:\CSharpIntermedioITLA\POO\Practica 1\bin\Debug\net6.0\Practica Estudiante.exe
+C:\CSharpIntermedioITLA\POO\Practica 1\bin\Debug\net6.0\Practica Estudiante.deps.json
+C:\CSharpIntermedioITLA\POO\Practica 1\bin\Debug\net6.0\Practica Estudiante.runtimeconfig.json
+C:\CSharpIntermedioITLA\POO\Practica 1\bin\Debug\net6.0\Practica Estudiante.dll
+C:\CSharpIntermedioITLA\POO\Practica 1\bin\Debug\net6.0\Practica Estudiante.pdb
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.AssemblyInfoInputs.cache
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.AssemblyInfo.cs
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.csproj.CoreCompileInputs.cache
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.dll
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\refint\Practica Estudiante.dll
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.pdb
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\Practica Estudiante.genruntimeconfig.cache
+C:\CSharpIntermedioITLA\POO\Practica 1\obj\Debug\net6.0\ref\Practica Estudiante.dll

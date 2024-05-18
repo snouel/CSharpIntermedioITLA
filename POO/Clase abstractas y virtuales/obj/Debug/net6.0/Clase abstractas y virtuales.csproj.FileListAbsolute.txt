@@ -1,0 +1,14 @@
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\bin\Debug\net6.0\Clase abstractas y virtuales.exe
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\bin\Debug\net6.0\Clase abstractas y virtuales.deps.json
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\bin\Debug\net6.0\Clase abstractas y virtuales.runtimeconfig.json
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\bin\Debug\net6.0\Clase abstractas y virtuales.dll
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\bin\Debug\net6.0\Clase abstractas y virtuales.pdb
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.AssemblyInfoInputs.cache
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.AssemblyInfo.cs
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.csproj.CoreCompileInputs.cache
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.dll
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\refint\Clase abstractas y virtuales.dll
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.pdb
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\Clase abstractas y virtuales.genruntimeconfig.cache
+C:\CSharpIntermedioITLA\POO\Clase abstractas y virtuales\obj\Debug\net6.0\ref\Clase abstractas y virtuales.dll
