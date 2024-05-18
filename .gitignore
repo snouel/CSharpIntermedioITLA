@@ -50,3 +50,19 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignorar archivos de caché y temporales
+[Oo]bj/
+[Bb]in/
+.vs/
+*.suo
+*.user
+*.cache
+*.bak
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*.ilk
+*.mdf
+*.ldf
