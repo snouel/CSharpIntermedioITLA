@@ -6,4 +6,8 @@
     <RootNamespace>Practica_OCP</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Practica SRP No 1\Practica SRP No 1.csproj" />
+  </ItemGroup>
+
 </Project>

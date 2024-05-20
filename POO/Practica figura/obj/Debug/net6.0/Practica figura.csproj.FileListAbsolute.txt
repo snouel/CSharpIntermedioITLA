@@ -1,0 +1,4 @@
+C:\CSharpIntermedioITLA\POO\Practica figura\obj\Debug\net6.0\Practica figura.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpIntermedioITLA\POO\Practica figura\obj\Debug\net6.0\Practica figura.AssemblyInfoInputs.cache
+C:\CSharpIntermedioITLA\POO\Practica figura\obj\Debug\net6.0\Practica figura.AssemblyInfo.cs
+C:\CSharpIntermedioITLA\POO\Practica figura\obj\Debug\net6.0\Practica figura.csproj.CoreCompileInputs.cache

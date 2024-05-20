@@ -1,10 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "EKfawkshlc4uuMJs3D9DL9/D86zy226WXplFFiC2Pvkg8hrP8ZiTFfgupYoZYTXyI5pMYP36LjV75KqNb5QbKw==",
-  "success": true,
+  "dgSpecHash": "8GrW/91rfDtBUclYEzqKVJT++Om80HojrBsHODvm6JIyk1Z2l+MXyzR6JkVNO3OiNnd1bpQZYn3JPba/Cfm+kQ==",
+  "success": false,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\Practica OCP\\Practica OCP.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\steven.nouel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
-  ],
-  "logs": []
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\CSharpIntermedioITLA\\POO\\Practica OCP\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Practica SRP No 1 is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project Practica SRP No 1 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Practica SRP No 1",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
