@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "d7jK+MdnpnqvRcBB4bav1J279PvpOPu6RAbWemydEvylKjEPaUmvVKYFlmrGMmEwd1ic2n/g5yrb5fHAUzMTDA==",
+  "dgSpecHash": "EKfawkshlc4uuMJs3D9DL9/D86zy226WXplFFiC2Pvkg8hrP8ZiTFfgupYoZYTXyI5pMYP36LjV75KqNb5QbKw==",
   "success": true,
   "projectFilePath": "C:\\CSharpIntermedioITLA\\POO\\Practica OCP\\Practica OCP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+    "C:\\Users\\steven.nouel\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.30\\microsoft.netcore.app.host.win-x64.3.1.30.nupkg.sha512"
   ],
   "logs": []
 }
